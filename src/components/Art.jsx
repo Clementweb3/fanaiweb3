@@ -33,22 +33,22 @@ const Portfolio = () => {
       text:"Save environment art which I created with blender"
     },
     {
-      id:4,
+      id:5,
       image:Man,
       text:"My Ai generated art 'Man inside painting'"
     },
     {
-    id:5,
+    id:6,
     image:Plastic,
     text:"Plastic awareness art i created."
   },
   {
-    id:6,
+    id:7,
     image:Tanjiro,
     text:"Tanjiro 3d model i created with Blender"
   },
   {
-  id:7,
+  id:8,
   image:Pi,
   text:"Pi Network Metaverse City i created with Blender"
 },
