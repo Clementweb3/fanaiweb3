@@ -4,7 +4,7 @@ import {FaHome,FaHandshake} from "react-icons/fa"
 import {HiIdentification} from "react-icons/hi"
 import {AiFillFolderOpen} from "react-icons/ai"
 import {IoMdContacts} from "react-icons/io"
-import {Link} from "react-scroll"
+
 
 const Navbar = () => {
 
