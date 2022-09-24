@@ -31,8 +31,8 @@ const Contact = () => {
   ]
 
   return (
-    <div id='contact' className='text-white md:h-screen w-full lg:mt-[250px] mt-[100px]'>
-      <div className="max-w-screen-lg flex-1 flex justify-center items-start flex-col xl:px-0 sm:px-16 px-6 mx-auto w-full ">
+    <div id='contact' className='text-white h-screen sm:h-full sm:mb-[200px] w-full  mt-[100px]'>
+      <div className="max-w-screen-lg flex justify-center items-start flex-col xl:px-0 sm:px-16 px-6 mx-auto w-full ">
      
         <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold  mb-9 border-b-4 py-2 border-gray-500 leading-9 w-full ">Contact</h1> 
           <p className="md:text-[20px] text-gray-300 text-[18px] leading-[30.8px]  font-normal md:max-w-[80%] ">Contact me on my <span className='text-gradient'>social accounts</span> .Let's get to know each other</p>

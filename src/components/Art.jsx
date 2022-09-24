@@ -6,6 +6,8 @@ import Utopia from "../assets/utopia.png"
 import Man from "../assets/man.png"
 import Env from"../assets/env.png"
 import Plastic from "../assets/plastic.png"
+import Tanjiro from "../assets/tanjiro.png"
+import Pi from "../assets/pi.png"
 
 const Portfolio = () => {
 
@@ -31,7 +33,7 @@ const Portfolio = () => {
       text:"Save environment art which I created with blender"
     },
     {
-      id:5,
+      id:4,
       image:Man,
       text:"My Ai generated art 'Man inside painting'"
     },
@@ -40,12 +42,22 @@ const Portfolio = () => {
     image:Plastic,
     text:"Plastic awareness art i created."
   },
+  {
+    id:6,
+    image:Tanjiro,
+    text:"Tanjiro 3d model i created with Blender"
+  },
+  {
+  id:7,
+  image:Pi,
+  text:"Pi Network Metaverse City i created with Blender"
+},
 
   ]
 
 
   return (
-    <div id="projects" className='text-white w-full lg:h-screen lg:mt-[200px] mt-[60px] '>
+    <div id="projects" className='text-white w-full lg:mt-[100px] mt-[60px] '>
         <div className=" max-w-screen-lg mx-auto h-full flex flex-1 justify-center items-start flex-col xl:px-0 sm:px-16 px-6 ">
           <div className="pb-8 w-full   ">
             <p className="md:text-4xl sm:text-3xl text-2xl font-bold  mb-4 border-b-4 py-2 border-gray-500 leading-9 w-full">My Art</p>

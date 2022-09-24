@@ -27,7 +27,7 @@ const Hero = () => {
 
 
             <div className=" bg-blue-gradient
-             rounded-md w-[300px] h-[10px] transform:rotate-[90deg] "/>
+             rounded-md md:w-[300px]  w-[200px] md:m-0 mx-auto h-[10px] transform:rotate-[90deg] "/>
           
               {/* <button className="bg-gradient-to-tr from-dark-blue to-secondary-color rounded-md w-fit md:py-3 md:px-6 my-2 md:ml-3  py-2 px-4  md:text-2xl text-xl font-medium  hover:border hover:secondary-color hover:bg-none ">
                 Download CV

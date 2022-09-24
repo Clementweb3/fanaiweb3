@@ -38,7 +38,7 @@ const Navbar = () => {
   return (
 
 
-    <nav className='text-white w-max transform translate-x-[-50%] left-[50%] items-center bg-black-gradient border  z-[2] fixed  bottom-[32px]  gap-2 rounded-[38px] backdrop-blur-lg flex'>
+    <nav className='text-white w-max transform translate-x-[-50%] left-[50%]  items-center bg-black-gradient border  z-[2] fixed  bottom-[32px]  gap-2 rounded-[38px]  flex'>
 
         
       <ul className='list-none flex justify-end items-center p-1  md:px-7 md:py-2'>
