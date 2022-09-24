@@ -27,12 +27,7 @@
     #5ce1e6 51.94%,
     #33bbcf 90.29%
   );
-  --black-gradient:linear-gradient(
-    144.39deg,
-    #ffffff -278.56%,
-    #7a7373 -78.47%,
-    #010514 91.61%
-  );
+
 }
 
 *{
@@ -67,7 +62,7 @@ body{
     #01dfef 100%
   );
   ;
-  --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+
 }
 
 * {
