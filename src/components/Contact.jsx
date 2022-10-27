@@ -20,7 +20,8 @@ const Contact = () => {
       id:3,
       invite:"Contact me on Discord",
       logo:<FaDiscord size={40}/>,
-      link:"discordapp.com/users/990646240507228170"
+      link:"https://discord.com/users/990646240507228170"
+      
     },
     {
       id:4,
@@ -40,7 +41,7 @@ const Contact = () => {
                 {
                   contact.map(({id,invite,logo,link}) => {
                   return (
-                    <div key={id} className={`bg-black-gradient hover:bg-none transition-[400ms] md:border-r md:border-b-0 md:h-[300px] h-[150px] border-b w-full rounded-md justify-center items-center flex shadow-lg flex-col  py-3`}>
+                    <div key={id} className={`bg-black-gradient hover:bg-none transition-[400ms] md:border-r md:border-b-0 md:h-[300px] h-[150px] border-b w-full rounded-md justify-center items-center flex shadow-lg flex-col  p-4`}>
                       <div  className="p-3">
                         <h2 className={`lg:text-2xl sm:text-xl text-[16px] font-bold text-center ${id === 2 ? "text-gradient" : "text-white"} ${id === 4 ? "text-gradient" : "text-white"}`}>{invite}</h2>
                         
